@@ -10,7 +10,7 @@ todo
         li(each="{items}")
             span \#{id + 1} 
             span(class="{completed: done}") {title}
-            &nbsp;
+                &nbsp;
             a(if="{!done}", onclick="{ parent.done }") done
             a(if="{done}", onclick="{ parent.undone }") undone
 
